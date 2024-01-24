@@ -15,16 +15,27 @@
 
 #mainContent {
     display: grid;
+    grid-template-columns: repeat(9,30px);
     grid-column-gap: 16px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
+section{
+    grid-column: 1/-1;
+    margin-right: 10px;
+}
 
 img {
-    margin-top: 20px;
-    margin-bottom: 30px;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     width: 100%;
+}
+
+h1,h2,h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(56, 100, 221);
 }
 
 p{
