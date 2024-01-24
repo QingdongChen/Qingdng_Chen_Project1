@@ -28,4 +28,32 @@ article {
 img {
     margin-top: 20px;
     margin-bottom: 30px;
+    width: 100%;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 7px 0 burlywood;
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0 2px 15px 0 black;
+}
+
+.text{
+    padding: 3px 15px;
+}
+
+.last-card{
+    margin-bottom: 50px;
 }
